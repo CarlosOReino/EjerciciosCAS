@@ -1,0 +1,31 @@
+1. Realiza un análisis del problema de un software que permita sumar o restar (una sóla opción por ejecución) números enteros.
+Entrada: El software recibirá dos números enteros como entrada
+luego el usuario seleccionará una sola opción entre suma, que se realizará entre los dos números enteros.
+Salida: El resultado de la operación se mostrará como salida, como un número entero.
+
+2. Realiza un análisis del problema de un software que permita sumar y restar (ambas opciones por ejecución) números enteros
+Entradas: El software recibirá dos números enteros como entrada
+El usuario seleccionará entre suma y resta, que se realizará entre los dos números enteros.
+Salida: El resultado de la operación se mostrará como salida, como un número entero.
+
+3. Realiza un análisis del problema de un software que permita contar las cantidad de veces que aparece la letra a en una frase solicitada al usuario
+difinimos las variables (letraA, frase, contador)
+recorrer la frase
+contar las veces de que aparece la letra a
+mostrar resultado 
+
+4. Realiza un análisis del problema de un software que permita indcar si un número entero es par o impar.
+difinimos las variables (num, operacion, par, impar, resultado)
+Primero escribimos el num 
+detectamos si es par o impar
+mostramos el resultado
+5. Realiza un análisis del problema de un software que permita obtener el número de cifras que contiene un número entero
+difinimos las variables (num, cifras, resultado)
+
+6. Realiza un análisis del problema de un software que permita validar a un usuario con su contraseña, ofreciéndole N intentos (N es un número entre 1 y 5 y se le asigna a cada usuario aleatoriamente). Si falla sus intentos, debe esperar entre 5 y 20 minutos (también se decide de forma aleatoria)
+
+entrada de usuario y contraseña
+mostramos los intentos que tiene 
+se le mostraría un mensaje
+
+
