@@ -1,13 +1,13 @@
-let usuario = "carlos";
-let contra = "verde";
+const usuario = "carlos";
+const contra = "verde";
 let contador = 3;
 do {
   let a = prompt("Ingrese el usuario: ");
   let b = prompt("Ingrese la contraseña");
     
-  if (a === usuario && b === contra && contador <3) {
+  if (a === usuario && b === contra && contador < 3) {
         alert("Ingreso correcto!");
       } else {
-        alert("Incorrecto! tienes 3 intentos: " + contador);
+        alert("Incorrecto tienes 3 intentos: " + contador);
       }
 } while (contador--);
