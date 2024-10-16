@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            height: 2000px;
+            /* Para crear scroll en la página */
+        }
+
+        .fixed-element {
+            position: fixed;
+            top: 50px;
+            right: 50px;
+            width: 200px;
+            height: 200px;
+            overflow: hidden;
+            background-color: lightgreen;
+        }
+
+        /*El elemento hijo es más grande que su contenedor. Con overflow: auto, se añadirán barras de desplazamiento para ver el contenido completo.*/
+        .container {
+            position: relative;
+            width: 200px;
+            height: 200px;
+            border: 1px solid black;
+            overflow: auto;
+        }
+
+        .absolute-child {
+            position: absolute;
+            width: 250px;
+            height: 250px;
+            background-color: lightblue;
+        }
+    </style>
+    <title>Document</title>
+
+</head>
+
+<body>
+
+    <div class="fixed-element">
+     PRUEBA FIXED-ELEMENT
+    </div>
+    <div class="container">
+        PRUEBA CONTAINER
+    </div>
+    <div class="absolute-child">
+        PRUEBA ABSOLUTE-CHILD
+    </div>
+    
+</body>
+
+</html>
