@@ -16,18 +16,18 @@ function penUltimo() {
 
 //Numero de enlaces que enlazan a http://prueba
 let NumDeEnlaces;
-let contador;
+let contador = 0;
 function enlazanA() {
-  NumDeEnlaces = document.getElementsByTagName('a').length;
+  NumDeEnlaces = document.getElementsByTagName('a');
 
   for (let i = 0; i < NumDeEnlaces.length; i++) {
-    if(NumDeEnlaces=[i]&& NumDeEnlaces.href === "http://prueba"){
+    if(NumDeEnlaces[i].href == "http://prueba/"){
        contador++;
         
     }
     
   }
-  alert(NumDeEnlaces + contador);
+  alert(contador);
 }
 
 //Número de enlaces del tercer párrafo
