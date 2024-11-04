@@ -9,9 +9,35 @@ function primero(n) {
     alert("Ingrese los números!");
   } else {
     for (let i = 0; i < entrada.length; i++) {
-      entrada[i] += cifras;
+       cifras[i]++
     }
     alert("El número de cifras es: " + cifras);
   }
   return cifras;
+}
+
+//Una función que muestre al usuario una secuencia de _ (se debe construir la cadena de uno en uno), la cantidad de _ será solicitada al usuario
+
+function secuenciaLinea() {
+  let entrada = parseInt(prompt("Ingrese la cantidad de ( _ ) que desea relejar: "));
+  let c = "";
+     for (let i = 0; i < entrada; i++) {
+     c +=  "_";
+     
+    
+  }
+  alert("Secuencia final: " + c);
+}
+
+//Una función que permita mostrar la secuencia (se debe construir la cadena de uno en uno):
+
+function secDos() {
+  let entrada = parseInt(prompt("Ingrese la cantidad de ( _ ) que desea relejar: "));
+  let c = "";
+     for (let i = 0; i < entrada; i++) {
+     c +=  "*+_";
+     
+    
+  }
+  alert("Secuencia final: " + c);
 }
