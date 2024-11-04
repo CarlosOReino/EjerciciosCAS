@@ -3,9 +3,9 @@
 function primero(n) {
   let cifras;
   let entrada;
-  entrada = parseInt(prompt("Ingrese un número entero: "));
+  entrada = prompt("Ingrese un número entero: ");
   cifras = 0;
-  if (entrada == 0) {
+  if (isNaN(entrada)) {
     alert("Ingrese los números!");
   } else {
     for (let i = 0; i < entrada.length; i++) {
