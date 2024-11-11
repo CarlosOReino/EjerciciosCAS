@@ -1,0 +1,88 @@
+/*Estilos para la página*/
+.layout {
+  width: 100%;
+  display: grid;
+  grid:
+    "header" auto
+    "main" 1fr
+    "footer" auto
+    / 1fr;
+  gap: 8px;
+}
+
+.header {
+  grid-area: header;
+}
+.main {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+}
+
+body {
+  background-color: orange;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: antiquewhite;
+  font-family: "Courier New", Courier, monospace;
+}
+/*Estilo para el boton de inicio*/
+#btnIniciar {
+  border-radius: 4px;
+  background-color: purple;
+  padding: 10px;
+  color: white;
+  
+}
+.layout {
+    width: 60%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#pregunta {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.opcion {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.opcion:hover {
+    background-color: #e0e0e0;
+}
+
+#siguiente {
+    padding: 10px 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+#siguiente:hover {
+    background-color: #c7689c;
+}
+
+
+.opcion-seleccionada { 
+    background-color: #690e4b;
+    color: white;
+    border: 2px solid #0056b3;
+}
