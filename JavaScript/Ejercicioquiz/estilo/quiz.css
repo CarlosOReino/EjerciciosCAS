@@ -80,9 +80,21 @@ h1 {
     background-color: #c7689c;
 }
 
-
+/*Opción seleccionada marcado*/
 .opcion-seleccionada { 
     background-color: #690e4b;
     color: white;
     border: 2px solid #0056b3;
+}
+
+/*Respuestas incorecctas y correctas*/
+
+.respuesta-correcta{
+    background-color: #28a745;
+    color: white;
+}
+
+.respuesta-incorrecta{
+  background-color: #dc3545;
+  color: white;
 }
