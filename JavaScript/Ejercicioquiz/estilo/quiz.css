@@ -55,15 +55,16 @@ h1 {
     display: block;
     padding: 10px;
     margin: 10px 0;
-    background-color: #f1f1f1;
+    background-color: #eee7e7;
     cursor: pointer;
     border: 1px solid #ccc;
     border-radius: 5px;
-    transition: background-color 0.3s;
+    transition: background-color 0.1s;
 }
 
 .opcion:hover {
-    background-color: #e0e0e0;
+    background-color: #ffffff;
+    
 }
 
 #siguiente {
@@ -77,24 +78,30 @@ h1 {
 }
 
 #siguiente:hover {
-    background-color: #c7689c;
+    background-color: #682148;
 }
 
 /*Opción seleccionada marcado*/
 .opcion-seleccionada { 
     background-color: #690e4b;
     color: white;
-    border: 2px solid #0056b3;
+    
 }
 
 /*Respuestas incorecctas y correctas*/
 
 .respuesta-correcta{
-    background-color: #28a745;
+    background-color: #008820;
     color: white;
 }
 
 .respuesta-incorrecta{
-  background-color: #dc3545;
-  color: white;
+  background-color: #ff011a;
+  color: black;
+}
+
+.footer{
+  background-color: #fae589;
+  font-family:'Courier New', Courier, monospace;
+
 }

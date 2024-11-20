@@ -113,12 +113,7 @@ function mostrarPregunta(indice) {
   //limpiamos cada opción
   let opciones = [opcion1, opcion2, opcion3, opcion4];
   opciones.forEach((opcion) => {
-    opcion.classList.remove(
-      "opcion-seleccionada",
-      "respuesta-correcta",
-      "respuesta-incorrecta"
-      
-    );
+    opcion.classList.remove("opcion-seleccionada","respuesta-correcta","respuesta-incorrecta");
     opcion.onclick = null;
   });
   preguntaID.innerText = preguntas[indice].pregunta;
@@ -157,6 +152,8 @@ siguienteBtn.addEventListener("click", function () {
     resultadoFinal();
   }
 });
+/*-------------------------------------------------------------------------------------------------*/
+
 //Función que se ejecuta al hacer click en una respuesta
 
 function respuestaSeleccionada(opcionSleccionada, opcionElemento) {
@@ -183,6 +180,7 @@ function respuestaSeleccionada(opcionSleccionada, opcionElemento) {
   });
 }
 
+/*-------------------------------------------------------------------------------------------------*/
 
 //Función para mostrar la puntuacion.
 function calcularPuntuacion() {
@@ -195,10 +193,28 @@ function calcularPuntuacion() {
   }
   return puntuacion;
 }
+/*-------------------------------------------------------------------------------------------------*/
 
 //Función para mostrar el resultado final
 
 function resultadoFinal() {
   let puntuacion = calcularPuntuacion();
   alert("Tu puntuación es: " + puntuacion + " de " + preguntas.length);
+}
+
+
+/*Resultados--------------------------------------------------------------------------------      */ 
+
+
+function mostarPuntuacionFinal(){
+  let puntuacionActual = 0;
+  let puntuacionElemento = document.getElementById("resultado");
+}
+
+function guardarResultado(puntuacion) {
+  let resultado = [];
+}
+
+function leerResultados() {
+  
 }
